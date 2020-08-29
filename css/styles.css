@@ -55,10 +55,11 @@ body{
 /* solar_intro */
 
 .solar_intro{
-  background-color: #b1e3ee;
+  background-color: #f2f2f2;
 }
 .solar-container {
-  padding: 8% 14%;
+  padding: 4rem 14%;
+  margin: 0;
 }
 .h2_solar{
   text-align: left;
@@ -81,7 +82,20 @@ body{
 /* solar_ben */
 
 .solar_ben{
-  background-color: #f2f2f2;
+  background-color: #b1e3ee;
+}
+/* .gif-col {
+  background-color: #e6ebef;
+} */
+.img1 {
+  height: 20rem;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  transform: rotate(-9deg);
 }
 
 
@@ -90,7 +104,7 @@ body{
 /* Features */
 
 .features {
-  background-color: #b1e3ee;
+  background-color: #f2f2f2;
   position: relative;
 }
 .features-container {
@@ -98,6 +112,9 @@ body{
 }
 .features-container2 {
   padding: 2% 25% 8%;
+}
+.feature-row {
+  margin: auto 0;
 }
 .row_col {
   margin: auto;
@@ -110,8 +127,11 @@ body{
 .text {
   background: radial-gradient(
     ellipse at center,
-    rgba(242, 242, 242, 1) 0%,
+    /* rgba(242, 242, 242, 1) 0%,
     rgba(242, 242, 242, 1) 70%,
+    rgba(0, 128, 172, 0) 70.3% */
+    rgba(177, 227, 238, 1) 0%,
+    rgba(177, 227, 238, 1) 70%,
     rgba(0, 128, 172, 0) 70.3%
   );
   height: 100%;
@@ -153,20 +173,20 @@ body{
 /* Testimonials */
 
 .testimonials {
-  background-color: #f2f2f2;
+  background-color: #b1e3ee;
 }
 .h2-testimonials {
   font-family: 'Comfortaa', sans-serif;
   font-weight: bold;
 }
 .testimonial-image {
-  border-radius: 100%;
+  border-radius: 10%;
   margin: 4%;
-  width: 20%;
+  width: 70%;
 }
 .carousel-item {
-  padding: 7% 14%;
-  padding-bottom: 5%;
+  padding: 4rem 14%;
+  padding-bottom: 2rem;
 }
 
 
@@ -176,28 +196,24 @@ body{
 
 .contact {
   background-color: #f2f2f2;
-  padding: 8% 14%
+  padding: 4rem 14%
 }
-
 .contact-div {
   width: 100%;
   margin: auto;
 }
-
 .contact-h3 {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  padding-bottom: 10px;
+  padding: 1rem 0;
   font-family: 'Comfortaa', sans-serif;
 }
-
 .contact-p {
   width: 90%;
   margin: 13px auto;
   font-family: "Century Gothic", Verdana,sans-serif;
 }
-
 .button_contact {
   background-color: #72cce0;
   border: none;
@@ -220,6 +236,15 @@ body{
   color: #3b4b5b;
   font-size: 16px;
 }
+.contact-h4 {
+  width: 90%;
+  margin: 2rem auto 1rem;
+  font-family: 'Comfortaa', sans-serif;
+}
+.contact-add {
+  width: 65%;
+  margin: auto;
+}
 
 
 
@@ -228,7 +253,7 @@ body{
 
 .footer {
   background-color: #87d4e5;
-  padding: 7% 14% 5%;
+  padding: 4rem 14% 5rem;
 }
 .icon-footer {
   margin: 1%;
@@ -250,21 +275,28 @@ body{
 
 @media (max-width: 991px) {
   .features-container {
-    padding: 8% 14% 0%;
+    padding: 8% 14% 0;
   }
   .features-container2 {
-    padding: 0% 14% 8%;
+    padding: 0 14% 8%;
+  }
+  .img1 {
+    display: none;
+  }
+  .testimonial-image {
+    margin: 4%;
+    width: 80%;
   }
 }
 @media (max-width: 660px) {
   .features-container {
-    padding: 8% 14% 0%;
+    padding: 8% 1% 0;
   }
   .features-container2 {
-    padding: 0% 14% 8%;
+    padding: 0 1% 8%;
   }
   .row_col {
-    margin: 3% auto;
+    margin: 0 auto;
   }
   .h2_solar, .contact-h3 {
     font-size: 1.5rem;
@@ -272,12 +304,68 @@ body{
   .p_solar {
     font-size: 1rem;
   }
-  .contact-p {
-  }
   .button_contact {
     padding: 10px 20px 10px 20px;
   }
   .i-footer {
     margin: 4%;
+  }
+  .contact-add {
+    width: 80%;
+  }
+  .img1 {
+    display: none;
+  }
+  .indicators-carousel {
+    margin-bottom: .2rem;
+  }
+  .testimonial-image {
+    margin: 4%;
+    width: 90%;
+  }
+  .h2-testimonials {
+    font-size: 1.5rem;
+  }
+  .carousel-testimonial {
+    padding-bottom: 10px;
+  }
+  .text {
+    height: 75%;
+    width: 75%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+  .icon {
+    font-size: 2.7rem;
+  }
+  .h3-features {
+    font-size: .8rem;
+  }
+  .row_col_1 {
+    width: 43.313%;
+    margin: auto;
+  }
+  /* .row_col_odd {
+    margin: auto;
+  } */
+  .quote-wrapper {
+    height: 200px;
+    width: 200px;
+  }
+  .contact {
+    padding: 4rem 2%
+  }
+  .footer {
+    padding: 4rem 2% 5rem;
+  }
+  .solar-container {
+    padding: 4rem 5%;
+  }
+  .ul_what {
+    padding-left: 23px;
   }
 }
