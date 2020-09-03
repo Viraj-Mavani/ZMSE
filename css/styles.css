@@ -34,7 +34,7 @@ body{
   color: #180149;
 }
 .logo {
-  height: 10rem;
+  height: 4.8rem;
 }
 .navbar-brand {
   font-family: 'Colonna MT', sans-serif;
@@ -69,7 +69,7 @@ body{
   color: #120136;
 }
 .ul_solar {
-  padding: 2% 2% 4rem;
+  padding: 2% 2% 2rem;
 }
 .ul_what {
   margin-bottom: 0;
@@ -82,6 +82,7 @@ body{
   margin-bottom: 0;
 }
 .hr-solar1 {
+  margin-top: 4rem;
   margin-bottom: 0;
   padding-bottom: 1px;
 }
@@ -92,6 +93,7 @@ body{
 /* solar_ben */
 
 .hr-solar2 {
+  margin-bottom: 4rem;
   margin-top: 0;
   padding-top: 1px;
 }
@@ -100,7 +102,7 @@ body{
   margin: 0;
 }
 .col-for-hr {
-  padding-top: 4rem;
+  padding-top: 2rem;
 }
 .solar_ben{
   background-color: #b1e3ee;
@@ -316,9 +318,9 @@ body{
   .navbar {
     padding: 3.8rem 2rem;
   }
-/*   .logo {
+  .logo {
     height: 3.5rem;
-  } */
+  }
   .nav-link {
     font-size: 1rem
   }
@@ -331,6 +333,12 @@ body{
   }
   .features-container2 {
     padding: 0 1% 8%;
+  }
+  .hr-solar1 {
+    margin-top: 0;
+  }
+  .hr-solar2 {
+    margin-bottom: 0;
   }
   .row_col {
     margin: 0 auto;
@@ -410,9 +418,9 @@ body{
   }
 }
 @media (max-width: 359px) {
-/*   .logo {
+  .logo {
     height: 2.5rem;
-  } */
+  }
   .row_col_1 {
     width: 64%;
   }
