@@ -22,19 +22,19 @@ body{
   background-size: cover;
 }
 
-.title-container {
+/* .title-container {
   padding: 5% 14% 35.5%;
-}
+} */
 
 /* Navigation Bar */
 
 .navbar {
-  padding: 0;
+  padding: 3.8rem 9rem;
   /* background-color: black; */
   color: #180149;
 }
 .logo {
-  height: 10rem;
+  height: 4.8rem;
 }
 .navbar-brand {
   font-family: 'Colonna MT', sans-serif;
@@ -56,6 +56,8 @@ body{
 
 .solar_intro{
   background-color: #f2f2f2;
+  background-position: center;
+  background-size: cover;
 }
 .solar-container {
   padding: 4rem 14%;
@@ -130,8 +132,8 @@ body{
     /* rgba(242, 242, 242, 1) 0%,
     rgba(242, 242, 242, 1) 70%,
     rgba(0, 128, 172, 0) 70.3% */
-    rgba(177, 227, 238, 1) 0%,
-    rgba(177, 227, 238, 1) 70%,
+    rgba(177, 227, 238, 1) 30%,
+    rgba(130, 200, 216, 1) 70%,
     rgba(0, 128, 172, 0) 70.3%
   );
   height: 100%;
@@ -274,6 +276,9 @@ body{
 
 
 @media (max-width: 991px) {
+  .navbar {
+    padding: 3.8rem 6rem;
+  }
   .features-container {
     padding: 8% 14% 0;
   }
@@ -289,6 +294,19 @@ body{
   }
 }
 @media (max-width: 660px) {
+  .navbar {
+    padding: 3.8rem 2rem;
+  }
+  .logo {
+    height: 3.5rem;
+  }
+  .nav-link {
+    font-size: 1rem
+  }
+  .navbar-toggler-icon {
+    width: 1.5rem;
+    height: 1.5rem;
+  }
   .features-container {
     padding: 8% 1% 0;
   }
@@ -367,5 +385,20 @@ body{
   }
   .ul_what {
     padding-left: 23px;
+  }
+}
+@media (max-width: 359px) {
+  .logo {
+    height: 2.5rem;
+  }
+  .row_col_1 {
+    width: 64%;
+  }
+  .nav-link {
+    font-size: .8rem
+  }
+  .navbar-toggler-icon {
+    width: 1em;
+    height: 1em;
   }
 }
