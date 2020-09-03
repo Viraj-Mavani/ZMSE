@@ -62,6 +62,8 @@ body{
 .solar-container1 {
   padding: 4rem 14% 0;
   margin: 0;
+  /* animation: 1s ease-out 0s 1 fadeIN; */
+
 }
 .h2_solar{
   text-align: left;
@@ -118,7 +120,7 @@ body{
   top: 0;
   bottom: 0;
   margin: auto;
-  transform: rotate(-9deg);
+  transform: rotate(-3deg);
 }
 
 
@@ -237,24 +239,6 @@ body{
   margin: 13px auto;
   font-family: "Century Gothic", Verdana,sans-serif;
 }
-.button_contact {
-  background-color: #72cce0;
-  border: none;
-  color: #3b4b5b;
-  padding: 15px 32px 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  font-weight: 100;
-  font-family: "Century Gothic", Verdana,sans-serif;
-  margin: 20px auto 10px;
-  opacity: 1;
-  transition: 1s;
-}
-.button_contact:hover {
-  opacity: 0.7;
-}
 .i-mail {
   color: #3b4b5b;
   font-size: 16px;
@@ -275,11 +259,13 @@ body{
 /* Footer */
 
 .footer {
-  background-color: #87d4e5;
+  background-color: #82C8D8;
   padding: 4rem 14% 5rem;
 }
 .icon-footer {
-  margin: 1%;
+  margin: 1% 2rem;
+  display: inline-block;
+  height: max-content;
 }
 .i-footer {
   color:#4d4d4d;
@@ -406,6 +392,9 @@ body{
   }
   .footer {
     padding: 4rem 2% 5rem;
+  }
+  .icon-footer {
+    margin: 1% 1.3rem;
   }
   .solar-container1 {
     padding: 4rem 5% 0;

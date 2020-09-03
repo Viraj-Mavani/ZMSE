@@ -9,6 +9,8 @@
     <!-- css -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="css/scroll.css" rel="stylesheet">
+    <link href="css/slide-in.css" rel="stylesheet">
 
     <!-- script -->
     <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
@@ -32,10 +34,10 @@
   </head>
   <body>
 
-    <section id="title" class="title" style="background-image: url(img/Background2.jpg);">
-      <div class="container-fluid title-container">
+    <section id="title" class="title" style="background-image: url(img/Background2.jpg); animation: fadeIN .75s;">
+      <div class="container-fluid title-container anim-updn-h show-on-scroll">
         <!-- Nav Bar -->
-        <nav class="navbar navbar-expand-lg navbar-light">
+        <nav class="navbar navbar-expand-lg navbar-light anim-updn show-on-scroll">
           <!-- <a class="navbar-brand" href="">ZMSE</a> -->
           <a href="" class="navbar-brand">
             <img class="logo" src="img/ZMSE.png" alt="ZMSE">
@@ -73,10 +75,10 @@
 
     <section id="solar_intro" class="solar_intro" style="background-image: linear-gradient(#82C8D8, #b1e3ee, #82C8D8);">
       <div class="container-fluid solar-container1">
-          <div class="">
+          <div class="h2-scale show-on-scroll heading">
             <h2 class="h2_solar">What is Solar Energy?</h2>
           </div>
-          <div class="ul_solar">
+          <div class="ul_solar show-on-scroll c-opacity">
             <ul class="ul_what">
               <li>
                 <p class="p_solar">Solar energy refers to energy from the sun.</p>
@@ -112,10 +114,10 @@
         <hr class="hr-solar2">
         <div class="row">
           <div class="col-lg-6 col-sm-12 col-for-hr">
-            <div>
+            <div class="h2-scale show-on-scroll heading">
               <h2 class="h2_solar">Benefits of Solar Energy</h2>
             </div>
-            <div class="ul_solar">
+            <div class="ul_solar show-on-scroll c-opacity">
               <ul class="ul_what">
                 <li>
                   <p class="p_solar">Renewable Energy Source</p>
@@ -135,7 +137,7 @@
               </ul>
             </div>
           </div>
-          <div class="col-lg-6 col-sm-12 img-col">
+          <div class="col-lg-6 col-sm-12 img-col show-on-scroll inline-photo">
             <img class="img1" src="img/random.jpg" alt="img">
           </div>
         </div>
@@ -151,8 +153,8 @@
 
       <div class="container-fluid features-container">
         <div class="row feature-row">
-          <div class="row_col row_col_1">
-            <div class="quote-wrapper">
+          <div class="row_col row_col_1 anim-updn-h show-on-scroll">
+            <div class="quote-wrapper anim-updn show-on-scroll">
               <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
                 <div class="div_features">
                   <i class="fas fa-check-circle icon"></i>
@@ -162,8 +164,8 @@
               </blockquote>
             </div>
           </div>
-          <div class="row_col row_col_2">
-            <div class="quote-wrapper">
+          <div class="row_col row_col_2 anim-updn-h show-on-scroll">
+            <div class="quote-wrapper anim-updn show-on-scroll">
               <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
                 <div class="div_features">
                   <i class="fas fa-heartbeat icon"></i>
@@ -173,8 +175,8 @@
               </blockquote>
             </div>
           </div>
-          <div class="row_col row_col_mid">
-            <div class="quote-wrapper">
+          <div class="row_col row_col_mid anim-updn-h show-on-scroll">
+            <div class="quote-wrapper anim-updn show-on-scroll">
               <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
                 <div class="div_features">
                   <i class="fas fa-coins icon"></i>
@@ -189,8 +191,8 @@
 
       <div class="container-fluid features-container2">
         <div class="row feature-row">
-          <div class="row_col row_col_1">
-            <div class="quote-wrapper">
+          <div class="row_col row_col_1 anim-updn-h show-on-scroll">
+            <div class="quote-wrapper anim-updn show-on-scroll">
               <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
                 <div class="div_features">
                   <i class="fas fa-hand-holding-usd icon"></i>
@@ -201,8 +203,8 @@
             </div>
           </div>
 
-          <div class="row_col row_col_2">
-            <div class="quote-wrapper">
+          <div class="row_col row_col_2 anim-updn-h show-on-scroll">
+            <div class="quote-wrapper anim-updn show-on-scroll">
               <blockquote class="text" cite="http://www.inspireux.com/category/quotes/jesse-james-garrett/">
                 <div class="div_features">
                   <i class="fas fa-user-shield icon"></i>
@@ -296,11 +298,11 @@
 
 
 
-        <a class="carousel-control-prev" href="#testimonial-carousel" role="button" data-slide="prev">
+        <a class="carousel-control-prev show-on-scroll c-opacity" href="#testimonial-carousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="sr-only">Previous</span>
         </a>
-        <a class="carousel-control-next" href="#testimonial-carousel" role="button" data-slide="next">
+        <a class="carousel-control-next show-on-scroll c-opacity" href="#testimonial-carousel" role="button" data-slide="next">
           <span class="carousel-control-next-icon" aria-hidden="true"></span>
           <span class="sr-only">Next</span>
         </a>
@@ -315,18 +317,18 @@
     <section id="contact" class="contact" style="background-image: linear-gradient(#cecece, #f7f7f7, #cecece);">
       <div>
         <div class="contact-div">
-          <div class="contact-div">
+          <div class="contact-div show-on-scroll c-opacity">
             <h3 class="contact-h3">How can we help?</h3>
             <div class="contact-intro">
               <p class="contact-p">Need any help or need to get in with us?</p>
               <p class="contact-p">Mail us and We will be touch as soon as possible.</p>
             </div>
           </div>
-          <a href="mailto:zmsesolarenergy@gmail.com" class="btn btn-lg active button_contact" role="button" aria-pressed="true">
+          <a href="mailto:zmsesolarenergy@gmail.com" class="btn btn-lg active btn-anim show-on-scroll" role="button" aria-pressed="true">
             <i class="fas fa-paper-plane i-mail"></i>
             MESSAGE US
           </a>
-          <div class="contact-div">
+          <div class="contact-div show-on-scroll c-opacity">
             <h4 class="contact-h4">Address</h4>
             <p class="contact-add">First floor, 10-Samrat Industrial Area, Opp. Gajanan Roadways, B/H S.T. Workshop, Gondal Road, Rajkot-360004, Gujarat-INDIA</p>
           </div>
@@ -342,16 +344,16 @@
     <footer id="footer" class="footer">
 
      <div class="social-links">
-       <a href="https://twitter.com/" class="icon-footer"><i class="fab fa-twitter i-footer"></i></a>
-       <a href="https://www.facebook.com/" class="icon-footer"><i class="fab fa-facebook-f i-footer"></i></a>
-       <a href="https://www.instagram.com/" class="icon-footer"><i class="fab fa-instagram i-footer"></i></a>
+       <a href="https://twitter.com/" class="icon-footer"><i class="fab fa-twitter i-footer icon-anim show-on-scroll"></i></a>
+       <a href="https://www.facebook.com/" class="icon-footer"><i class="fab fa-facebook-f i-footer icon-anim show-on-scroll"></i></a>
+       <a href="https://www.instagram.com/" class="icon-footer"><i class="fab fa-instagram i-footer icon-anim show-on-scroll"></i></a>
        <!-- <a href="mailto:zmsesolarenergy@gmail.com" class="icon-footer"><i class="far fa-envelope i-footer"></i></a> -->
      </div>
-     <div class="cp">
+     <div class="cp show-on-scroll c-opacity">
        <p>© Copyright 2020 ZMSE Solar Energy</p>
      </div>
 
     </footer>
-
+    <script src="js/show-on-scroll.js"></script>
   </body>
 </html>
