@@ -316,9 +316,9 @@ body{
   .navbar {
     padding: 3.8rem 2rem;
   }
-  .logo {
+/*   .logo {
     height: 3.5rem;
-  }
+  } */
   .nav-link {
     font-size: 1rem
   }
@@ -410,9 +410,9 @@ body{
   }
 }
 @media (max-width: 359px) {
-  .logo {
+/*   .logo {
     height: 2.5rem;
-  }
+  } */
   .row_col_1 {
     width: 64%;
   }
