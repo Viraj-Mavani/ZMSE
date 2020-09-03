@@ -59,8 +59,8 @@ body{
   background-position: center;
   background-size: cover;
 }
-.solar-container {
-  padding: 4rem 14%;
+.solar-container1 {
+  padding: 4rem 14% 0;
   margin: 0;
 }
 .h2_solar{
@@ -69,13 +69,21 @@ body{
   color: #120136;
 }
 .ul_solar {
-  padding: 2%;
+  padding: 2% 2% 2rem;
+}
+.ul_what {
+  margin-bottom: 0;
 }
 .p_solar {
   text-align: left;
   font-family: 'Century Gothic', serif;
   color: #180149;
   font-size: 1.5rem;
+  margin-bottom: 0;
+}
+.hr-solar1 {
+  margin-bottom: 0;
+  padding-bottom: 1px;
 }
 
 
@@ -83,6 +91,17 @@ body{
 
 /* solar_ben */
 
+.hr-solar2 {
+  margin-top: 0;
+  padding-top: 1px;
+}
+.solar-container2 {
+  padding: 0 14% 4rem;
+  margin: 0;
+}
+.col-for-hr {
+  padding-top: 2rem;
+}
 .solar_ben{
   background-color: #b1e3ee;
 }
@@ -380,7 +399,10 @@ body{
   .footer {
     padding: 4rem 2% 5rem;
   }
-  .solar-container {
+  .solar-container1 {
+    padding: 4rem 5%;
+  }
+  .solar-container2 {
     padding: 4rem 5%;
   }
   .ul_what {
