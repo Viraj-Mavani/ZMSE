@@ -411,7 +411,7 @@ body{
 }
 @media (max-width: 359px) {
   .logo {
-    height: 3.5rem;
+    height: 2.5rem;
   }
   .row_col_1 {
     width: 64%;
