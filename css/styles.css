@@ -13,7 +13,6 @@ body{
 /* title */
 
 .title{
-  background-color: #000000;
   color: #fff;
   font-family: '', sans-serif;
   /* background-size: 100% 100%; */
@@ -29,9 +28,13 @@ body{
 /* Navigation Bar */
 
 .navbar {
-  padding: 3.8rem 9rem;
+  padding: 3.8rem 9rem 0;
   /* background-color: black; */
   color: #180149;
+}
+.hr-nav {
+  margin: auto;
+  width: 86%;
 }
 .logo {
   height: 4.8rem;
@@ -40,6 +43,7 @@ body{
   font-family: 'Colonna MT', sans-serif;
   font-size: 4rem;
   /* font-weight: bold; */
+  padding: 0;
 }
 .nav-item {
   padding-left: 16px;
@@ -284,7 +288,7 @@ body{
 
 @media (max-width: 991px) {
   .navbar {
-    padding: 3.8rem 6rem;
+    padding: 3.8rem 6rem 0;
   }
   .features-container {
     padding: 8% 14% 0;
@@ -302,7 +306,7 @@ body{
 }
 @media (max-width: 660px) {
   .navbar {
-    padding: 3.8rem 2rem;
+    padding: 3.8rem 2rem 0;
   }
   .logo {
     height: 3.5rem;
