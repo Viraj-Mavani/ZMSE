@@ -1,0 +1,27 @@
+.h1-thx,.h2-thx {
+  font-family: 'Comfortaa', sans-serif;
+  color: #120136;
+  margin: 1rem 0;
+}
+.sub-container {
+  padding: 5rem 3rem;
+}
+
+
+
+@media (max-width: 991px) {
+
+}
+@media (max-width: 660px) {
+  .h1-thx {
+    font-size: 1.5rem;
+  }
+  .h2-thx {
+    font-size: 1rem;
+  }
+  .sub-container {
+    padding: 5rem 1rem;
+  }
+}
+@media (max-width: 359px) {
+}
